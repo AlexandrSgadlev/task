@@ -1,0 +1,226 @@
+/*
+    Style immovable page
+*/
+.single article{
+	padding: 25px 0px 50px 0px;
+	display: flex;
+    flex-wrap: wrap;
+	align-items: flex-start;
+}
+.single article .left-i{
+	width: 66%;
+	position: relative;
+}
+.single article .right-i{
+	width: 34%;
+	padding-left: 54px;
+}
+.single article .bottom-i{
+	width: 66%;
+}
+
+#similar-property{
+	padding: 50px 0px;
+}
+.left-i h1{ 
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 110%;
+	margin-top: 40px;
+	color: #222222;
+	margin-bottom: 10px;
+}
+.left-i .community-i{
+	vertical-align: middle;
+	font-size: 0.875rem;
+	line-height: 142%;
+	color: #222222;
+    display: flex;
+}
+.left-i .community-i svg{
+	margin-right: 5px;
+}
+.left-i .tag-i{
+	display: flex;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+}
+.left-i .tag-post-i{
+	font-weight: 700;
+	font-size: 0.75rem;
+	line-height: 160%;
+	align-items: center;
+	color: #FFFFFF;
+	margin-right: 4px;
+	border-radius: 8px;
+	background: #00A0D3;
+	padding: 3px 10px;
+}
+.left-i .tag-post-deal-i{
+	background: #005A8C;
+	border-radius: 8px;
+}
+.left-i .tag-post-i:hover{
+	color: #bbbbbb;
+	text-decoration: none;
+}
+.attribure-i{
+	margin: 30px 0px 50px 0px;
+	padding: 20px 0px 15px 0px;
+	border-top: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+}
+.attribure-i .attribure-list-i{
+	display: flex;
+    align-items: center;
+}
+.attribure-i .attribure-list-i .attribure-item{
+	padding-right: 70px;
+}
+.attribure-i .attribure-list-i .attribure-item .attribure-val-i svg{
+	vertical-align: sub;
+}
+.attribure-i .attribure-list-i .attribure-item .attribure-val{
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 110%;
+	color: #01AEE6;
+    margin-right: 5px;
+}
+.attribure-i .attribure-list-i .attribure-item .attribure-label{
+	font-size: 0.875rem;
+	line-height: 142%;
+	color: #222222;
+	display: block;
+	margin-bottom: 0px;
+}
+.project-details-i h2{
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 110%;
+	color: #222222;
+	margin-bottom: 20px;
+}
+.project-details-i .project-details-list .label{
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 142%;
+	color: #222222;
+	padding-bottom: 10px;
+}
+.project-details-i .project-details-list .value{
+	font-size: 0.875rem;
+	line-height: 142%;
+	color: #222222;
+	padding-bottom: 10px;
+}
+.unique-id-i{
+    padding: 30px 0px 25px 0px;
+    font-size: 0.875rem;
+    line-height: 142%;
+    color: #8F8F8F;
+    margin: 0px;
+}
+.price-i .price-default{
+	margin-bottom: 0px;
+	font-size: 2rem;
+	line-height: 103%;
+	color: #222222;
+	font-weight: 700;
+}
+.button-form-i{
+	margin-top: 60px;
+}
+.button-form-i .btn{
+	background: #01AEE5;
+	border-radius: 8px;
+	border: 0px;
+	color: #ffffff;
+	font-size: 1rem;
+	line-height: 124%;
+	text-align: center;
+	padding: 8px 30px;
+}
+.button-form-i .btn:hover{
+	opacity: .7;
+}
+
+
+/* MEDIA */
+@media (max-width: 575.98px){
+.single article .left-i, .single article .right-i, .single article .bottom-i{
+    width: 100%;
+}
+.single article .right-i {
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+.attribure-i .attribure-list-i {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.attribure-i .attribure-list-i .attribure-item {
+	padding-right: 0px;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0px;
+}
+#similar-property h2{
+    margin-bottom: 65px;
+}
+.archive .owl-carousel .owl-nav button {
+    top: -60px;
+    left: 50px;
+}
+.archive .owl-carousel .owl-nav button.owl-prev {
+    left: -5px;
+}
+.archive .attribure-i .attribure-list-i .attribure-item {
+    padding-right: 10px;
+    width: auto;
+}
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+.single article .left-i, .single article .right-i, .single article .bottom-i{
+    width: 100%;
+}
+.single article .right-i {
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+.attribure-i .attribure-list-i .attribure-item {
+    padding-right: 30px;
+}
+.archive .attribure-i .attribure-list-i .attribure-item {
+    padding-right: 5px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+.single article .left-i, .single article .right-i, .single article .bottom-i{
+    width: 100%;
+}
+.single article .right-i {
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+.attribure-i .attribure-list-i .attribure-item {
+    padding-right: 50px;
+}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+.single article .left-i, .single article .right-i, .single article .bottom-i{
+    width: 100%;
+}
+.single article .right-i {
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+}

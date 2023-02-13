@@ -1,0 +1,191 @@
+/*
+    Style archive page
+*/
+
+
+.archive .list-item{
+	padding-bottom: 30px;
+}
+
+.archive .text-i .attribure-i .attribure-list-i{
+    display: flex;
+    align-items: center;
+}
+.archive .attribure-val-i{
+    display: flex;
+}
+.archive .list-item .item{
+	padding-bottom: 40px;
+}
+.archive .text-i .attribure-i .attribure-list-i .attribure-item .attribure-val{
+	margin-right: 5px;
+}
+
+
+
+
+.archive .navigation ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-bottom: 60px;
+}
+
+.archive .prev-link,
+.archive .next-link{
+    display: flex;
+    align-items: center;
+}
+.archive .prev-link svg,
+.archive .next-link svg{
+	transition: all .2s;
+}
+.archive .navigation li {
+    display: block;
+    margin: 0px 7px;
+}
+.archive .navigation li a,
+.archive .navigation li a:hover,
+.archive .navigation li.active a,
+.archive .navigation li.disabled {
+	font-size: 0.75rem;
+	line-height: 100%;
+	color: #222222;
+	cursor: pointer;
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+}
+.archive .navigation li a:hover,
+.archive .navigation li.active a {
+	text-decoration: none;
+	color: #005A8C;
+}
+
+.archive .navigation li a:hover svg path,
+.archive .navigation li a:hover svg path{
+	stroke: #005A8C;
+}
+
+
+.archive .navigation li.active a {
+	color: #BBBBBB !important;
+	pointer-events: none;
+	cursor: default;
+}
+.archive .navigation li.active svg path{
+	stroke: #BBBBBB;
+}
+
+.archive .navigation .next svg{
+	margin-left: 5px;
+}
+.archive .navigation .prev svg{
+	margin-right: 5px;
+}
+.archive .immovables-term{
+	padding: 40px 0px;
+    min-height: 100px;
+}
+.archive .immovables-term .term-list{
+	display: flex;
+}
+.archive .immovables-term  .term-list .term{
+	background: #E7F9FF;
+	border: 1px solid #3DCBF9;
+	border-radius: 8px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #01AEE6;
+	padding: 5px 8px;
+	margin: 10px 15px 10px 0px;
+}
+.archive .immovables-term  .term-list .term:hover{
+    text-decoration: none;
+    color: #222222;
+}
+
+
+
+
+
+
+
+
+/* MEDIA */
+@media (max-width: 575.98px){
+.archive .text-i .price-default {
+    font-size: 1.125rem;
+}
+.archive .text-i .entry-title a {
+    font-size: 1rem;
+}
+.archive .text-i .attribure-i .attribure-list-i .attribure-item .attribure-val {
+    font-size: 1rem;
+}
+.archive .attribure-val-i {
+	align-items: flex-end;
+}
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+.archive .text-i .price-default {
+    font-size: 1.125rem;
+}
+.archive .text-i .entry-title a {
+    font-size: 1rem;
+}
+.archive .text-i .attribure-i .attribure-list-i .attribure-item .attribure-val {
+    font-size: 1rem;
+}
+.archive .attribure-val-i {
+	align-items: flex-end;
+}
+.archive .attribure-i .attribure-list-i .attribure-item {
+    padding-right: 10px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+.archive .text-i .price-default {
+    font-size: 1.125rem;
+}
+.archive .text-i .entry-title a {
+    font-size: 1rem;
+}
+.archive .text-i .attribure-i .attribure-list-i .attribure-item .attribure-val {
+    font-size: 1rem;
+}
+.archive .attribure-val-i {
+	align-items: flex-end;
+}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+.archive .text-i .price-default {
+    font-size: 1.125rem;
+}
+.archive .text-i .entry-title a {
+    font-size: 1rem;
+}
+.archive .text-i .attribure-i .attribure-list-i .attribure-item .attribure-val {
+    font-size: 1rem;
+}
+.archive .attribure-i .attribure-list-i .attribure-item {
+    padding-right: 20px;
+}
+.archive .attribure-val-i {
+	align-items: flex-end;
+}
+
+}
+
+
+
